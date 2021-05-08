@@ -1,0 +1,32 @@
+{
+  "name": "node-cron-notifier",
+  "version": "1.0.0",
+  "description": "Execute a node script at any cron time and trigger os native notifications for any event in the script",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srihari44/node-cron-notifier.git"
+  },
+  "keywords": [
+    "cron",
+    "notify"
+  ],
+  "author": "Srihari44",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "node-notifier": "^9.0.1",
+    "safe-eval": "^0.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Srihari44/node-cron-notifier/issues"
+  },
+  "homepage": "https://github.com/Srihari44/node-cron-notifier#readme",
+  "bin": {
+    "node-cron-notifier": "index.js"
+  }
+}
